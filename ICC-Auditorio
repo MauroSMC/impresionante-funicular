@@ -15,3 +15,4 @@ def combinatoria(n, k):
         return 0
 
 print(combinatoria(8,3))
+print(combinatoria(10,2))
