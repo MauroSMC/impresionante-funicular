@@ -17,3 +17,17 @@ def combinatoria(n, k):
 print(combinatoria(8,3))
 print(combinatoria(10,2))
 print(combinatoria(90,100))
+
+
+
+# Para saber si un número es primo o no
+n = int(input())
+def EsPrimo(n):
+    for c in range(2, n):
+        if n % c ==0:
+            return False
+    return True
+if EsPrimo(n):
+    print("SI ES PRIMO")
+else:
+    print("NO ES PRIMO")
