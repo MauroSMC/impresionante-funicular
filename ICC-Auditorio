@@ -16,3 +16,4 @@ def combinatoria(n, k):
 
 print(combinatoria(8,3))
 print(combinatoria(10,2))
+print(combinatoria(90,100))
