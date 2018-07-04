@@ -1,0 +1,11 @@
+import funciones
+x=1
+def main():
+  funciones.menuprincipal()
+  n=int(input("Ingresar opción:"))
+  if n==1:
+    funciones.generarmenu()
+  if n==3:
+    funciones.cambiarprecio()
+while x==1:
+  main()

@@ -1,0 +1,40 @@
+bienvenida="""
+********************************************************
+******* Bienvenido al sitema generador de menu *********
+********************************************************
+"""
+menu="""
+(1) Generar Menú semanal
+(2) Facturar cliente
+(3) Cambiar precio de un producto
+"""
+Semana=['LUNES','MARTES','MIERCOLES','JUEVES','VIERNES','SÁBADO','DOMINGO']
+
+
+
+Bebidas={'Jugo de Papaya':'1.00','Maracuya':'2.00','Chicha Morada':'1.50','Limonada':'1.00','Jugo de Fresa':'2.50','Carambola':'1.50','Agua de Manzana':'1.00'}
+Bebidas2=['Jugo de Papaya','Maracuya','Chicha Morada','Limonada','Jugo de Fresa','Carambola','Agua de Manzana']
+
+
+
+
+Entradas=['Ceviche','Ensalada de quinua','Papa Rellena','Causa Rellena de Pollo','Ensalada Rusa','Papa a la Huancaina','Empanada de Carne']
+
+
+
+
+Sandwiches=['Sandwhich de pollo','Triple Integral','Triple Hawaiano','Triple de pollo','Triple de palta','Sandwhich de queso','Hamburguesa']
+
+Sandwiches2={'Sandwhich de pollo':'4.50','Triple Integral':'5.00','Triple Hawaiano':'6.00','Triple de pollo':'4.50','Triple de palta':'6.00','Sandwhich de queso':'3.50','Hamburguesa':'4.50'}
+
+Ingredientes={'Sandwhich de pollo':'(Pan Frances + pollo desilachado + mayonesa + papitas al hilo)','Triple Integral':'(Pan integral + huevo + palta + pollo + tomate + mayonesa)','Triple Hawaiano':'(Pan blanco + pollo + durazno + mayonesa)','Triple de palta':'(Pan blanco + palta + tomate + mayonesa)','Sandwhich de queso':'(Pan + queso fundido + papitas al hilo)','Hamburguesa':'(Pan Hamburguesa + carne de res + lechuga + tomate + papitas al hilo + salsas al gusto','Triple de pollo':'(Pan blanco + pollo + mayonesa + jamón)'}
+
+segundos=['Aji de gallina','Carapulcra','Lomo saltado','Mondonguito a la Italiana','Tallarines verdes','Seco de ternera','Arroz Chaufa','Ezcaveche de pescado','Olluquito','Adobo de pollo','Pollo al sillao','Chicharron de pescado','Garvanzo','Locro de Zapallo']
+
+Productos={1:Bebidas,2:Sandwiches}
+
+opciones="""
+Elegir el tipo de producto:
+(1) Bebidas
+(2) Sandwiches
+"""

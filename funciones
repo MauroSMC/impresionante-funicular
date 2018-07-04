@@ -1,0 +1,48 @@
+import recursos
+from random import choice
+def menuprincipal():
+  print(recursos.bienvenida)
+  print(recursos.menu)
+
+def generarmenu():
+   for z in recursos.Semana:
+    print(z)
+    B=choice(recursos.Bebidas2)
+    recursos.Bebidas2.remove(B)
+    B2=recursos.Bebidas[B]
+
+    Sa=choice(recursos.Sandwiches)
+    recursos.Sandwiches.remove(Sa)
+    Sa2=recursos.Sandwiches2[Sa]
+    Sa3=recursos.Ingredientes[Sa]
+
+    E=choice(recursos.Entradas)
+    recursos.Entradas.remove(E)
+
+    S2=choice(recursos.segundos)
+    recursos.segundos.remove(S2)
+
+    S3=choice(recursos.segundos)
+    recursos.segundos.remove(S3)
+    print('     Bebida:')
+    print('       -',B,'S/.',B2,end=" ")
+    print()
+    print('     Sandwhich:')
+    print('       -',Sa,'S/.',Sa2,Sa3)
+    print('     Almuerzo:(S/.9.00)')
+    print('         Entrada:')
+    print('           -',E)
+    print('         Segundos:')
+    print('           -',S2)
+    print('           -',S3)
+
+def cambiarprecio():
+  print(recursos.opciones)
+  x=int(input())
+  producto=input('Producto:')
+  precio=input("Precio:")
+  recursos.Productos[x].update({producto:precio})
+
+def facturar():
+  if input()!=%:
+    
